@@ -3,8 +3,8 @@
 1. Clone the repository:
 
    ```sh
-   git clone
-   cd
+   git clone https://github.com/Prodigal-Blockchain/PeerToPlay_Connectors.git
+   cd PeerToPlay_Connectors
    ```
 
 2. Install the dependencies:
