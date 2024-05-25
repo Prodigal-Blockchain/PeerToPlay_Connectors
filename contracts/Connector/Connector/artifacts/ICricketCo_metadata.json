@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "teamName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "playerIds",
+						"type": "uint256[]"
+					}
+				],
+				"name": "createTeam",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "matchId",
+						"type": "uint256"
+					}
+				],
+				"name": "payMatchFee",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "matchId",
+						"type": "uint256"
+					}
+				],
+				"name": "playMatch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "playerName",
+						"type": "string"
+					}
+				],
+				"name": "registerPlayer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "teamId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "location",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "matchType",
+						"type": "uint256"
+					}
+				],
+				"name": "scheduleMatch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Connector/Connector/interface.sol": "ICricketCo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Connector/Connector/interface.sol": {
+			"keccak256": "0xabd2b79727e7aec77d47da6ada210b5e7db1b12fac94927e9692e6496ed3b641",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1963aed665c27712879f013f2cd60ca5bc5cffd94648796140bf231803bcca83",
+				"dweb:/ipfs/QmUHUPj5KH1k9sWiAeye2WH6ReqpRgngV4p6z16Hwz2rzB"
+			]
+		}
+	},
+	"version": 1
+}

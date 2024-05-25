@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"name": "isConnectors",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Connector/Common/interfaces.sol": "PeerToPlayConnectors"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Connector/Common/interfaces.sol": {
+			"keccak256": "0x2701f29a803e4853e1c718ff93ac58f15036b461a60517911f280993a241ee1c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d72d1ad3910529e81dfb2bf84fd6ebe42edeb05de875cac27d2c226942d6036",
+				"dweb:/ipfs/Qmdg9kmKYtpygvE5m1388pj1EzE1asyoZ7qjPUWxJjSE13"
+			]
+		}
+	},
+	"version": 1
+}

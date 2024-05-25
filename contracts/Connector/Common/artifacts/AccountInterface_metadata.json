@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "_targetNames",
+						"type": "string[]"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "_datas",
+						"type": "bytes[]"
+					},
+					{
+						"internalType": "address",
+						"name": "_origin",
+						"type": "address"
+					}
+				],
+				"name": "cast",
+				"outputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "responses",
+						"type": "bytes32[]"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "disable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "enable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isAuth",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Connector/Common/interfaces.sol": "AccountInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Connector/Common/interfaces.sol": {
+			"keccak256": "0x2701f29a803e4853e1c718ff93ac58f15036b461a60517911f280993a241ee1c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d72d1ad3910529e81dfb2bf84fd6ebe42edeb05de875cac27d2c226942d6036",
+				"dweb:/ipfs/Qmdg9kmKYtpygvE5m1388pj1EzE1asyoZ7qjPUWxJjSE13"
+			]
+		}
+	},
+	"version": 1
+}

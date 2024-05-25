@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "accountID",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"name": "accountLink",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "first",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "last",
+								"type": "address"
+							},
+							{
+								"internalType": "uint64",
+								"name": "count",
+								"type": "uint64"
+							}
+						],
+						"internalType": "struct ListInterface.AccountLink",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Connector/ConnectorPeer/interface.sol": "ListInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Connector/ConnectorPeer/interface.sol": {
+			"keccak256": "0x762b7295a6cc9db3470ff36fd62572f157de2d3a1de510c16399be26a4568fbc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0239fc54c9cf7fb292cddcfb32440efa6a01f6798b8a0a3d4e50b9829aa57fe",
+				"dweb:/ipfs/QmakSZbSRJKGKJXYqMyYisoNZkBEbQpemn7CfYojMctwSc"
+			]
+		}
+	},
+	"version": 1
+}
