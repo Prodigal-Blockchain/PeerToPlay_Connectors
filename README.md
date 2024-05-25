@@ -35,3 +35,12 @@ To deploy the contracts, use the following command:
 ```sh
 npx hardhat run scripts/deploy.js --network your_network
 ```
+
+crate protocol =0x8e34306579d69a1be524ddAE72B73D75Abdf5455
+
+CricketConnector-v1 connector=0x7d5A95d10c7d332Ce1C2818D9dCc8db211dddD0f
+
+## Contracts Deployed
+
+- **Cricket Protocol**: [0x8e34306579d69a1be524ddAE72B73D75Abdf5455](https://sepolia.etherscan.io/address/0x8e34306579d69a1be524ddAE72B73D75Abdf5455)
+- **CricketConnector-v1**: [0x7d5A95d10c7d332Ce1C2818D9dCc8db211dddD0f](https://sepolia.etherscan.io/address/0x7d5A95d10c7d332Ce1C2818D9dCc8db211dddD0f)
