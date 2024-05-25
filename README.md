@@ -30,10 +30,16 @@
 
 ## Deployment
 
-To deploy the contracts, use the following command:
+To deploy the protocol contract, use the following command:
 
 ```sh
 npx hardhat run scripts/deploy.js --network your_network
+```
+
+To deploy connector contract, replace connecotr address with protocol contract address in "connector/helper.sol" and use the following command:
+
+```sh
+npx hardhat run scripts/deployConnector.js --network your_network
 ```
 
 ## Contracts Deployed
